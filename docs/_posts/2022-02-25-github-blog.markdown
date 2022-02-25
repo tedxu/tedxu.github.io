@@ -1,13 +1,9 @@
 ---
-
 layout: post
-
-title: "建立 Github 博客站点"
-
-date:  2022-02-25 17:25:16 +0800
-
+title: 建立 Github 博客站点
+date: '2022-02-25 17:25:16 +0800'
 categories: jekyll github
-
+published: true
 ---
 
 # 参考来源
@@ -31,8 +27,14 @@ categories: jekyll github
 博客文章放置在 Jekyll 的 `_posts` 目录下，必须是以下列格式作为文件名
 
 ```
-YYYY-MM-DD-title.MARKUP
+YYYY-MM-DD-title.<type>
 ```
 
+其中 type 标识文件格式，至少有以下可选的文件格式：
 
+- markdown
+- markup
 
+# Jekyll 编辑器
+
+[这里](https://github.com/planetjekyll/awesome-jekyll-editors) 有一个 Jekyll 编辑器列表。[prose.io](https://prose.io/) 是一个好用的在线编辑器。
