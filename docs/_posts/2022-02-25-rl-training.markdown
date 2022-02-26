@@ -53,7 +53,7 @@ DQN 在实践中不是常用的算法，一年后名声大噪的 AlphaGo 并没�
 
 # Policy Gradient
 
-<TBD>
+tbd
 
 # 上手强化学习训练
 
