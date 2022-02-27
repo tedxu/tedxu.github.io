@@ -22,7 +22,7 @@ published: true
 
 我们通常讨论的 “训练” 是数值解的范畴。数值解的方法使用马尔可夫过程作为其数学模型，从贝尔曼等式可得
 
-$$ \begin{align} v_\pi(s) &= \mathbb E_\pi [G_t | S_t = s]\\ &= \mathbb E_\pi [\sum_{k=0}^\infin \gamma^k R_{t+k+1} | S_t = s] \\ &= \mathbb E_\pi [R_{t+1 + } \gamma\sum_{k=0}^\infin \gamma^k R_{t+k+2} | S_t = s] \\ &= \sum_a \pi(a | s) \sum_{s', r} p(s',r | s, a) (r + \gamma v_\pi (s')) \\ \end{align} $$
+$$ \begin{align} v_\pi(s) &= \mathbb E_\pi [G_t | S_t = s]\\ &= \mathbb E_\pi [\sum_{k=0}^\infty \gamma^k R_{t+k+1} | S_t = s] \\ &= \mathbb E_\pi [R_{t+1 + } \gamma\sum_{k=0}^\infty \gamma^k R_{t+k+2} | S_t = s] \\ &= \sum_a \pi(a | s) \sum_{s', r} p(s',r | s, a) (r + \gamma v_\pi (s')) \\ \end{align} $$
 
 状态 $s$ 的价值 $v$ 可以从其后继状态 $s'$ 迭代计算出来。在一个强化学习问题中，状态价值 $v$ 和策略 $\pi$ 都是未知的，确定两个其一即可用于决策（选择价值高的行动，或者策略决定的更高概率的行动）。强化学习的算法因此分为3种：
 
