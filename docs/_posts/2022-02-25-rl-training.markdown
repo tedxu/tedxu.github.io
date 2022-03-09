@@ -2,7 +2,7 @@
 layout: post
 title: 训练强化学习模型
 date: '2022-02-25 19:52:16 +0800'
-categories: 'reinforcement learning' 
+categories: 理
 published: true
 ---
 
@@ -49,7 +49,7 @@ DQN 是引爆当代强化学习热潮的一个重要算法。它基本上是一�
 
 双向 DQN （DDQN）（Van Hasselt, H., Guez, A., & Silver, D. (2016). Deep reinforcement learning with double Q-Learning. *30th AAAI Conference on Artificial Intelligence, AAAI 2016*.）是 DQN 的一个变种，用于优化 DQN 估计的 Q value 偏大的情况。
 
-DQN 在实践中不是常用的算法，一年后名声大噪的 AlphaGo 并没有使用 DQN，它使用的是 Policy Gradient。
+DQN 在实践中不是常用的算法，一年后名声大噪的 AlphaGo 并没有使用 DQN，它使用的是 Mont Carlo Tree Search。
 
 # Policy Gradient
 
