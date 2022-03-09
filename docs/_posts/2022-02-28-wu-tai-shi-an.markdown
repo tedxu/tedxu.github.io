@@ -45,7 +45,9 @@ __黄州诗帖__
 
 《寒食帖》，全名《黄州寒食诗帖》，简称《寒食诗帖》，又称《寒食节帖》，是北宋苏轼被贬黄州第三年（公元1082年，元丰五年）的行书代表作，左侧有黄庭坚跋文，被誉为“苏书第一”，二十世纪末更被评为“天下第三行书”，现收藏于台北国立故宫博物院。
 
-<img src="//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/%E5%AF%92%E9%A3%9F%E5%B8%96.jpg/9000px-%E5%AF%92%E9%A3%9F%E5%B8%96.jpg" style="width:38700;overflow-x:auto;" />
+<div style="overflow-x: scroll; width: 700px;">
+<img src="//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/%E5%AF%92%E9%A3%9F%E5%B8%96.jpg/9000px-%E5%AF%92%E9%A3%9F%E5%B8%96.jpg" style="overflow-x:scroll;height:232px;">
+</div>
 
 
 __词__
